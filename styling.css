@@ -6,6 +6,7 @@ body {
   padding: 0;
 }
 
+
 .border-orange {
   border-top: 10px solid orange;
 }
@@ -40,15 +41,24 @@ body {
 .nav-left>ul>li {
   list-style: none;
 }
-
+  
 .nav-left>ul {
   display: flex;
-}
+  justify-content: space-between;
+ 
 
+}
+.nav-left{
+  min-width: 35%;
+
+}
 .nav-right {
   display: flex;
+ 
 }
-
+#search{
+  max-height: 20px;
+}
 .nav {
   display: flex;
   justify-content: space-between;
@@ -80,4 +90,16 @@ strong {
 
 .item>img {
   max-width: 100%;
+}
+
+.links{
+  display: flex;
+  justify-content: space-between;
+  background-color: #fbf2ea;
+}
+.last-section{
+  background-color:#fff8f2;
+}
+.cards{
+  display: flex;
 }

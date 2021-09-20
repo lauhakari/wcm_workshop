@@ -1,0 +1,5 @@
+<svg class="icon magnifier" role="img" aria-label="Sök">
+                    <g class="default">
+                        <use xlink:href="/etc/designs/wcms/images/icons.svg#magnifier" href="/etc/designs/wcms/images/icons.svg#magnifier"></use>
+                    </g>
+                </svg>

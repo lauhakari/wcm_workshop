@@ -23,12 +23,11 @@ body {
 
 .hero {
   display: flex;
-  width: 100%;
+  justify-content: space-between;
 }
 
 .hero-right>img {
-  width: 50%;
-  align-items: flex-end;
+  max-width: 600px;
 }
 
 .home {

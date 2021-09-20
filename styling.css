@@ -1,3 +1,13 @@
 .main {
   display: grid;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.border-orange {
+  border-top: 10px solid orange;
 }

@@ -6,17 +6,23 @@ body {
   padding: 0;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
 
+}
+
+.content>div {
+  margin-bottom: 10px;
+}
 .border-orange {
   border-top: 10px solid orange;
 }
 
 .wrapper {
   display: block;
-  grid-template-columns: 100%;
-  grid-template-rows: repeat(8, 1fr);
   margin: auto;
-  max-width: 1000px; 
+  max-width: 1000px;
 }
 
 .header {
@@ -34,7 +40,7 @@ body {
 }
 
 .home {
-  max-width: 50px;
+  max-width: 17.65px;
   max-height: auto;
 }
 
@@ -66,11 +72,12 @@ body {
 }
 
 .hero, .security {
+  padding: 25px;
   background-color: #fbf2ea;
 }
 
-strong {
-  background-color: #ebf8f2;
+.security>h1, .hero-left>h1 {
+  color: #f35b1c;
 }
 
 
@@ -100,6 +107,24 @@ strong {
 .last-section{
   background-color:#fff8f2;
 }
+
+.disclaimer {
+  color: rgb(121, 121, 121);
+  font-size: 60%;
+  max-width: 700px;
+}
 .cards{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards>div {
+  padding: 15px;
+  max-width: 29.5%;
+  background-color: #ebf8f2;
+}
+
+
+.footer {
   display: flex;
 }
